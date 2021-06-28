@@ -1,0 +1,110 @@
+*{
+    padding: 0%;
+    margin: 0%;
+}
+
+.navigatie {
+    overflow: hidden;
+    background-color: #53F89A;
+  }
+  
+  .navigatie a {
+    float: right;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+  }
+
+  .navigatie input[type=text] {
+    float: right;
+    padding: 6px;
+    border: none;
+    margin-top: 8px;
+    margin-right: 16px;
+    font-size: 17px;
+  }
+
+  h1{
+    padding-left: 5%;
+    padding-top: 5px;
+  }
+
+  #dashboard{
+      display: grid;
+      grid-template-columns: 450px 650px 450px;
+      grid-template-rows: 250px 350px 250px ;
+      text-align: center;
+  }
+
+  .leen{
+      grid-column-start: 2;
+      grid-row-start: 2;
+      background-color: #E8FEEE;
+  }
+
+  .tekst{
+      font-size: 50px;
+      grid-column-start: 2;
+      grid-row-start: 1;
+      padding-top: 25%;
+  }
+
+
+  .button{
+    grid-column-start: 2;
+    grid-row-start: 2;
+    margin-top: 45%;
+    margin-left: 20%;
+    margin-right: 20%;
+  }
+
+  #fname{
+    grid-column-start: 2;
+    grid-row-start: 2;
+    width: 150px;
+    height: 50px;
+    margin-top: 10%;
+    margin-left: 20%;
+  }
+
+  .heb{
+    grid-column-start: 2;
+    grid-row-start: 2;
+    font-size: 25px;
+    padding-top: 12%;
+    padding-right: 80%;
+  }
+
+  .te{
+    grid-column-start: 2;
+    grid-row-start: 2;
+    font-size: 25px;
+    padding-top: 12%;
+  }
+  
+  #fname1{
+    grid-column-start: 2;
+    grid-row-start: 2;
+    width: 150px;
+    height: 50px;
+    margin-top: 25%;
+    margin-left: 55%;
+  }
+
+  .voor{
+    grid-column-start: 2;
+    grid-row-start: 2;
+    font-size: 25px;
+    padding-top: 27%;
+  }
+
+  .dagen{
+    grid-column-start: 2;
+    grid-row-start: 2;
+    font-size: 25px;
+    padding-top: 27%;
+    padding-left: 68%;
+  }
+ 
